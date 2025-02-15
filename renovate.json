@@ -5,11 +5,11 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
       "schedule": [
         "at any time"
+      ],
+      "matchPackageNames": [
+        "*"
       ]
     }
   ],
