@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "schedule": [
+        "at any time"
+      ]
+    }
+  ],
+  "dependencyDashboard": true,
+  "rangeStrategy": "bump",
+  "automerge": true,
+  "automergeType": "pr"
+}
